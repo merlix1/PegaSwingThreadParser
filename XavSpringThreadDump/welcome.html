@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+
+<style>
+body {
+font-family: arial;
+font-size: 10px;
+
+
+}
+
+</style>
+</head>
+
+<body>
+
+UTSOR stand for Unable To Synchronize On Requestor.
+<BR>
+UTSOR Smasher is an utility which sole purpose is to find out why an UTSOR was generated.
+<BR>
+<BR>
+UTSOR support PRPC 7.1.8, PRPC 7.1.9, PRPC 7.2, PRPC 7.2.1, PRPC 7.2.2.
+<BR>
+Support for previous PRPC version will be added.
+<BR>
+INSTRUCTION: go to File->Scan Folder and provide a folder which contains both Pega logs and Pega Alert logs.
+That's it!
+<BR>
+<BR>
+How it works:
+<BR>
+UTSOR Smasher will scan PegaRules log file for any UTSOR alert, then will scan PegaRules Alert logs for any related alert.
+Any alert related to the same affected user/thread will be returned.
+<BR>
+Yellow lines corresponds to alert generated during the typical 2 minutes hang before the Alert generated.
+<BR>
+Red lines corresponds to alert of high value and should contain pertinent information for this issue (based on extremely complicated algorithm :))
+
+</body>
+
+</html>
