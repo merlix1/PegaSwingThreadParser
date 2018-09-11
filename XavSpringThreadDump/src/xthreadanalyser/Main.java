@@ -15,7 +15,7 @@ public class Main extends Application {
 			//View xavview= new View();
 
 			//BorderPane root= xavview.load()
-			primaryStage.setTitle("Utsor 5.0bc");
+			primaryStage.setTitle("Utsor 5.0bcaa");
 			final Scene scene = new Scene(new Controller(primaryStage).getView(), 1400, 800, Color.WHITE);
 			//BorderPane root = new BorderPane();
 			//Scene scene = new Scene(root,400,400);
