@@ -32,3 +32,5 @@ If it contains a “unable to synchronize on requestor” then this should be pr
  
 
 If you have any SR with such message "unable to synchronize on requestor"  then I would recommend to test this tool.
+
+![alt text](https://github.com/merlix1/CassandraNodesAnalysis/blob/master/UtsorScreen.png)
